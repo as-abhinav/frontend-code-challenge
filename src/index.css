@@ -1,0 +1,104 @@
+@import url(../node_modules/materialize-css/dist/css/materialize.css);
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.header .page-title {
+  font-size: 27px;
+}
+
+.card {
+  position: relative;
+  color: #5b5b5b;
+}
+
+.card.medium {
+  height: 370px;
+}
+
+.card p {
+  font-size: 14px;
+}
+
+.card .purpose {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  background: #fff;
+  font-size: 10px;
+  color: #bebebc;
+  padding: 5px 10px;
+  border: 2px;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+}
+
+.card .address {
+  font-size: 12px;
+  display: block;
+  color: #bebebc;
+  margin-top: 10px;
+  font-style: normal;
+}
+
+.card .card-action {
+  border-top: 0;
+}
+
+.card .card-action .area {
+  color: #464646;
+  font-size: 14px;
+  position: relative;
+  padding-left: 0;
+}
+
+.card .card-action .area:after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  left: 50%;
+  background: #bebebc;
+}
+
+.card .card-action .area span {
+  white-space: nowrap;
+}
+
+.card .card-action .price {
+  font-size: 14px;
+  color: #373737;
+  font-weight: bold;
+  padding-left: 0;
+}

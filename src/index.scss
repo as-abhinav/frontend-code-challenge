@@ -1,0 +1,10 @@
+@import "../node_modules/materialize-css/dist/css/materialize.css";
+@import "./variables";
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+@import "components/header/header";
+@import "components/properties/property";

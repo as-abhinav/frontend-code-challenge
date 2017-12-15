@@ -47,3 +47,21 @@ The programming challenge exists in 2 parts:
 * Usage of linters.
 * Git hooks.
 * Usage of Material Design concepts
+
+
+
+# Update from Development
+
+## To start application
+
+* First install npm modules ```npm install```
+* To start server in development mode, open two terminal windows and run following commands in each terminal window ```npm start``` and ```npm run watch-css```
+* open ```http://localhost:30001``` in browser.
+
+## To run tests
+
+* Run ```npm test``` in terminal.
+
+## To build
+
+* run following commands in sequence ```npm run build-csss``` and then ```npm run build```

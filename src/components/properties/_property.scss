@@ -1,0 +1,60 @@
+.card {
+  position: relative;
+  color: $grey-dark;
+  &.medium {
+    //override medium card height.
+    height: 370px;
+  }
+  p {
+    font-size: $font-m;
+  }
+  .purpose {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    background: $brand-white;
+    font-size: $font-xs;
+    color: $grey-light;
+    padding: 5px 10px;
+    border: 2px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, .3);
+  }
+
+  .address {
+    font-size: $font-s;
+    display: block;
+    color: $grey-light;
+    margin-top: 10px;
+    font-style: normal;
+  }
+
+  .card-action {
+    border-top: 0;
+
+    .area {
+      color: $grey-darker;
+      font-size: $font-m;
+      position: relative;
+      padding-left: 0;
+      &:after {
+        content: '';
+        display: block;
+        position: absolute;
+        width: 1px;
+        height: 100%;
+        left: 50%;
+        background: $grey-light;
+      }
+      span {
+        white-space: nowrap;
+      }
+    }
+
+    .price {
+      font-size: $font-m;
+      color: $grey-darkest;
+      font-weight: bold;
+      padding-left: 0;
+    }
+  }
+}
