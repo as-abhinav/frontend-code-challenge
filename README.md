@@ -65,3 +65,9 @@ The programming challenge exists in 2 parts:
 ## To build
 
 * run following commands in sequence ```npm run build-csss``` and then ```npm run build```
+
+
+# Assumptions made for Data consumption.
+
+* As the API is a public API and its very complicate to accesss data from Public JSON api, where response type ='opaque' or status=0.
+* Hence I have used a small liberty to download the JSON and use that JSON, however, implementation of fetch API is there in code, in just a matter of 2 line changes, we can use proper API.
