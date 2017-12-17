@@ -15,9 +15,10 @@ export class Properties extends React.Component {
           </div>
           <div className="card-action">
             <span className='col s4 price'>{property.price}</span>
-            <span className='col s8 area center-align'>
-              <span className='col s6 room'>{property.rooms}</span>
-              <span className='col s6'>{property.area}</span>
+            <span className='col s8 area right-align'>
+              <span className='room'>{property.rooms}</span>
+              <span className='spacer'>&nbsp;</span>
+              <span className='a'>{property.area}</span>
             </span>
           </div>
         </div>

@@ -45,7 +45,7 @@ export const propertyTransformer = (data) => {
   return properties.map((property) => {
     return {
       id: property._id.$id,
-      title: property.title,
+      title: property.title.substr(0,70),
       purpose: translatePurpose(property.purpose),
       address: addressFormatter(property.realestateSummary.address),
       rooms: roomsFormatter(property.realestateSummary.numberOfRooms),

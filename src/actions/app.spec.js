@@ -19,7 +19,7 @@ const _mockedDataToTest = [{
     'price': '€ 457.00',
     'purpose': 'Meiten',
     'rooms': '3 Zimmer',
-    'title': '+++ +++ FLATSCREEN ZUM EINZUG! +++ Moderne, frisch sanierte 3 Zi-Wohnung mit herrlichem Ausblick'
+    'title': '+++ +++ FLATSCREEN ZUM EINZUG! +++ Moderne, frisch sanierte 3 Zi-Wohnu'
   }, {
     'address': '09130 Chemnitz / Tschaikowskistraße',
     'area': 'ab 73 m²',
@@ -64,7 +64,7 @@ const _mockedDataToTest = [{
     'price': '€ 285.00',
     'purpose': 'Meiten',
     'rooms': '2 Zimmer',
-    'title': 'Gemütliche 2-Zi.Dachgeschosswohnung mit Tageslichtbad und Klimaanlage in schöner Seenlandschaft'
+    'title': 'Gemütliche 2-Zi.Dachgeschosswohnung mit Tageslichtbad und Klimaanlage '
   }, {
     'address': '04552 Borna / Glück-Auf-Straße',
     'area': 'ab 49 m²',
@@ -73,7 +73,7 @@ const _mockedDataToTest = [{
     'price': '€ 250.00',
     'purpose': 'Meiten',
     'rooms': '2 Zimmer',
-    'title': 'Praktische 2-Zi. Erdgeschosswohnung mit Balkon in schöner Seelandschaft'
+    'title': 'Praktische 2-Zi. Erdgeschosswohnung mit Balkon in schöner Seelandschaf'
   }, {
     'address': '47259 Duisburg / Im Bonnefeld',
     'area': 'ab 64 m²',
@@ -82,7 +82,7 @@ const _mockedDataToTest = [{
     'price': '€ 379.90',
     'purpose': 'Meiten',
     'rooms': '2 Zimmer',
-    'title': '+++ FLATSCREEN ZUM EINZUG! +++ Großzügig geschnittene 2,5-Zi Wohnung mit schönem Weitblick'
+    'title': '+++ FLATSCREEN ZUM EINZUG! +++ Großzügig geschnittene 2,5-Zi Wohnung m'
   }, {
     'address': '09123 Chemitz / Marie-Tilch-Straße',
     'area': 'ab 39 m²',

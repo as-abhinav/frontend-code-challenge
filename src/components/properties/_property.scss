@@ -3,17 +3,35 @@
   color: $grey-dark;
   &.medium {
     //override medium card height.
-    height: 370px;
+    height: 400px;
+    margin: 10px;
+    box-shadow: none;
+    border: solid 1px $border-grey;
+  }
+
+  .card-image {
+    height: 55%;
+    img {
+      height: 100%;
+      width: auto;
+      transform: translateX(-15%);
+    }
+  }
+
+  .card-content {
+    padding: 25px 25px 25px 35px;
+    font-weight: 500;
   }
   p {
     font-size: $font-m;
   }
   .purpose {
     position: absolute;
-    left: 10px;
-    top: 10px;
+    left: 15px;
+    top: 20px;
     background: $brand-white;
-    font-size: $font-xs;
+    font-size: $font-s;
+    font-weight: 700;
     color: $grey-light;
     padding: 5px 10px;
     border: 2px;
@@ -35,15 +53,12 @@
       color: $grey-darker;
       font-size: $font-m;
       position: relative;
-      padding-left: 0;
-      &:after {
-        content: '';
-        display: block;
-        position: absolute;
-        width: 1px;
-        height: 100%;
-        left: 50%;
-        background: $grey-light;
+      padding-right: 0;
+      .spacer {
+        display: inline-block;
+        position: relative;
+        border-left: solid 1px $grey-light;
+        margin: 0 10px;
       }
       span {
         white-space: nowrap;
@@ -54,7 +69,7 @@
       font-size: $font-m;
       color: $grey-darkest;
       font-weight: bold;
-      padding-left: 0;
+      padding-right: 0;
     }
   }
 }
